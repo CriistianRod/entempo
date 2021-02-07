@@ -1,0 +1,415 @@
+@font-face{
+    font-family: 'Brandon Grot';
+    src: url('../assets/fonts/Brandon\ Grot\ W01\ Light.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #d6d6d4; */
+    color: #414141;
+    font-family: 'Brandon Grot', sans-serif;
+    font-weight: lighter;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.header{
+    background-color:#F9A30B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    position: fixed;
+    width: 100%;
+}
+
+.header .logo{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 13px 5px 13px;
+    /* background-color: ; */
+    color: #414141;
+    border-radius: 5px;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: inherit;
+    text-decoration: none;
+    color: #414141;
+}
+
+.header ul{
+    display: flex;
+    height: inherit;
+    font-size: 1.3em;
+}
+
+.header ul li{
+    height: inherit;
+}
+
+section {
+    /* height: calc(81vh - 2px); */
+    /* border-bottom: 1px solid white; */
+    padding-top: 7vh;
+    /* padding-bottom: 3vh; */
+}
+
+.hero{
+    background-image: url('../assets/entempoBG.jpg');
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #414141;
+}
+
+.overlay{
+    /* background-color: rgba(65, 65, 65, 0.8); */
+    background-color: rgba(235, 235, 234, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.motto h1{
+    text-align: center;
+    color:#414141;
+    /* color:white; */
+    font-size: 4.4em;
+    margin: 0;
+}
+
+.promises h2{
+    font-size: 1.2em;
+    margin: 0;
+    color:#F9A30B;
+    /* margin-top: 3vh; */
+}
+
+.promises{
+    padding: 0;
+    font-size: 1.6em;
+    margin: 0;
+    text-align: center;
+    /* color: white */
+}
+
+.promises ul{
+    margin: 0;
+    line-height: 1.2em;
+}
+
+/* .hero_image{
+} */
+
+.hero_image img{
+    object-fit: cover;
+    background-size: auto;
+    width: 50vw;
+    height: 50vh;
+}
+
+input{
+    margin: 2% 0;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 20px;
+    font-family: inherit;
+    font-size: 0.8em;
+    width: 300px;
+}
+
+.email_input input:last-child{
+    background-color:#F9A30B;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+section ul {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul li{
+    margin: 0 2vw;
+}
+
+.promises_section{
+    padding-bottom: 7vh;
+}
+
+section h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+.promises_section p{
+    margin: 0;
+    text-align: center;
+}
+
+.promise{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promise_img{
+    background-color: #F9A30B;
+    border-radius: 500px;
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.siente_mejor_img{
+    height: 140px;
+}
+
+.mas_tiempo_img{
+    color: black;
+}
+
+.suenios_logo_img{
+    color: black;
+}
+
+.stories_section{
+    /* background-color: #d6d6d4; */
+    /* border-top: red solid 1px;
+    border-bottom: red solid 1px; */
+    padding-bottom: 3vh;
+}
+.comm_info{
+    font-size: 1.6em;
+    /* margin-right: 3vw; */
+    max-width: 40vw;
+}
+
+.comm_image img{
+    height: 50vh;
+}
+
+.stories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stories ul{
+    padding: 0;
+    /* flex-shrink: 0; */
+}
+
+.stories ul li{
+    min-width: 300px;
+    margin: 0 2vw;
+}
+
+.story{
+    text-align: center;
+}
+
+.story h2{
+    margin: 0;
+    text-align: center;
+}
+
+.story h5{
+    margin-top: 0;
+    margin-bottom: 2vh;
+}
+
+.story p{
+    margin: 0;
+}
+
+.story img{
+    height: 150px;
+    width: 150px;
+    border-radius: 300px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.components{
+    background-color: #d6d6d4;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    /* border-bottom: red solid 1px; */
+}
+
+.components h1{
+    margin-bottom: 8vh;
+}
+
+.components h2, .components p{
+    margin: 0;
+    /* line-height: 1.3; */
+}
+
+.components_wrapper{
+    text-align: center;
+}
+
+/* .components h1{
+    font-size: 2.5em;
+    margin: 0;
+} */
+
+.component img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.buy{
+    padding-bottom: 3vh;
+    background-color: #F9A30B;
+}
+
+.buy_wrapper{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.buy_img{
+    display: inherit;
+    align-items: center;
+}
+
+.buy_img img{
+    height: 60vh;
+    margin: 2vh 1vw;    
+}
+
+.buy_info h1{
+    margin: 5vh 0;
+}
+
+.buy_info ul{
+    flex-direction: column;
+    list-style-type: disc;
+}
+
+.buy_info h2{
+    margin-bottom: 0;
+}
+
+.buy_info input{
+    background-color:#F9A30B;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.footer{
+    background-color: #d6d6d4;
+    /* height: 20vh; */
+    display: flex;
+    padding-top: 0;
+    flex-direction: column;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footer_wrapper{
+    display: inherit;
+    align-items: center;
+    margin: 3vh 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url('../assets/facebook.svg');
+}
+
+.social-link.spotify{
+    background-image: url('../assets/spotify.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../assets/instagram.svg');
+}
+
+
+.email-form input {
+    border-color: rosybrown;
+    padding: 2px 20px 2px 25px;
+    font-size: 1.3em;
+    border-radius: 30px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.email-form button {
+    margin-top: 7.5px;
+    background-color:#F9A30B;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0 20px;
+    height: 40px;
+    border: none;
+    font-family: inherit;
+    font-size: 1.1em;
+    margin-left: 0.5vw;
+    /*
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin: 10px auto; */
+}
+
+.email-form h3 {
+    font-weight: bold;
+    margin: 0;
+}

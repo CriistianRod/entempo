@@ -1,0 +1,4 @@
+assets/*.jpg
+assets/*.svg
+assets/*.png
+.vscode/settings.json
