@@ -1,4 +1,4 @@
-# entempo
-EnTempo Landing Page Design Concept
+# entempo Design Concept
 
-This is a webpage I designed and coded as an exercise. :)
+enTempo is the best course for time management. It has helped a lot of people to improve their life by teaching them how to organize their tasks.
+I fully designed, developed, and deployed this webpage as a propposal to its manager.
